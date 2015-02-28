@@ -1,0 +1,24 @@
+$for(posts)$
+<div>
+    <article class="article-excerpt">
+        $if(image)$
+        <div class="crop-image">
+            <img src="$image$" class="small-image">
+        </div>
+        $endif$
+        <h2 class="post-title"><a href="$url$">$title$</a></h2>
+        <div class="date">$date$</div>
+        <div class="post-list-content">
+            $if(excerpt)$ $excerpt$ $endif$
+            $if(teaser)$
+              $teaser$
+            $else$
+              no teaser
+            $endif$
+        </div>
+        <ul class="pager">
+            <li><a href="$url$">Read more</a></li>
+        </ul>
+    </article>
+</div>
+$endfor$

@@ -1,0 +1,94 @@
+@media (min-width: 992px) {
+    .container {
+        width: 750px;
+    }
+}
+
+.page-header {
+    border-bottom: 0px;
+    margin: 80px 0 40px;
+}
+
+.page-header h1 {
+    font-size: 50px;
+}
+
+h1 a {
+    color: rgb(90,90,90);
+}
+
+.breadcrumb-nav {
+    background-color: transparent;
+}
+
+.crop-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+
+.small-image {
+    width: auto;
+    height: auto;
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.comments {
+    margin: 40px 50px;
+}
+
+.article-excerpt {
+    padding: 0 0 150px;
+}
+
+h1 h2 {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.7em;
+    font-size: 18px;
+}
+
+span {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.post-title {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+.post-title a {
+    color: rgb(51, 51, 51);
+}
+
+.date {
+    color: rgb(90, 90, 90);
+    text-align: center;
+}
+
+.post-list-content {
+    margin: 20px 0 20px;
+}
+
+.main-image-wrapper {
+    margin: 0 auto 10px;
+    overflow: hidden;
+}
+
+.main-image {
+    max-width: 500px;
+    max-height: 500px;
+}
