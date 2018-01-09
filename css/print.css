@@ -1,0 +1,102 @@
+@page{
+  size: A4;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.name {
+  display: flex;
+}
+
+h1 {
+  margin: 0px;
+  padding-bottom: 8px;
+}
+
+.name .text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.name span {
+  font-size: 12px;
+  color: #555;
+  padding-bottom: 4px;
+}
+
+.name a {
+  text-decoration: none;
+  color: #555;
+  font-size: 12px;
+}
+
+.name img {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
+
+.cv-section {
+  display: flex;
+  padding-top: 32px;
+  font-size: 14px;
+}
+
+.cv-section.no-pad {
+  padding-top: 0px;
+}
+
+.cv-section h4 {
+  margin: 0px;
+  font-size: 16px;
+}
+
+.cv-section .title h4 {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #03899C;
+  width: 90px;
+}
+
+.cv-section .content {
+  padding-left: 16px;
+}
+
+.cv-section .content a {
+  color: #333;
+}
+
+.cv-section.projects .content span {
+  display: flex;
+}
+
+.cv-section.projects .content a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #444;
+  width: 100px;
+  display: block;
+}
+
+.cv-section.conferences .content div {
+  padding-bottom: 8px;
+}
+
+.cv-section.education .content a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #444;
+  display: block;
+}
+
+.cv-section.publications .content a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #444;
+}
+
+.cv-section.publications .content div {
+  padding-bottom: 8px;
+}

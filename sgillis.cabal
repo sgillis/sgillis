@@ -1,11 +1,21 @@
-name:               sgillis
-version:            0.1.0.0
-build-type:         Simple
-cabal-version:      >= 1.10
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 0262c97b084c95a776b670c44440f6f4ccd25bc59291ca1b30f4b1f86a155365
+
+name:           sgillis
+version:        0.1.0.0
+license:        UnspecifiedLicense
+build-type:     Simple
+cabal-version:  >= 1.10
 
 executable site
-  main-is:          site.hs
-  build-depends:    base == 4.*
-                  , hakyll == 4.6.*
-  ghc-options:      -threaded
+  main-is: site.hs
+  ghc-options: -threaded
+  build-depends:
+      base ==4.*
+    , hakyll ==4.9.*
+  other-modules:
+      Paths_sgillis
   default-language: Haskell2010
